@@ -1,7 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AccountsList from '@/components/shared/AccountsList.vue'
+</script>
 
 <template>
-  <div>test</div>
+  <AccountsList />
 </template>
 
 <style scoped></style>
